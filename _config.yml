@@ -1,7 +1,7 @@
 # Site settings
 # Enter your own credentials here
 title: "Processing-Structure Linkages"
-email: dipen@patel.com
+email: dpatel73@gatech.edu
 description: >
   Tell us about your site
 baseurl: "/MIC-Process-Structure-Linkages" # replace ``/research-pages`` with the name of the parents repository
