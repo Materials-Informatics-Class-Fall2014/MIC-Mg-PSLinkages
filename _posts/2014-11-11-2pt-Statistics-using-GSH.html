@@ -5,18 +5,21 @@ layout: post
 title: 2 point statistics using GSH basis function
 ---
 
-### Reason for discarding binning 
+## Reason for discarding binning 
+
 + Binning of Fundamental Zone leads to large number of discrete local states for orientations
 + Indicator basis function is not compact for representing orientations
 + Continuous basis function is needed for compact representation of orientations
 
-### Reason for discarding old experimental dataset
+## Reason for discarding old experimental dataset
+
 + Not enough data points - only 40 microstructures
 + Quality of data not good
 + Problem of charging in some microstructures
 + Image quality and confidence index poor
 
-### Details of New dataset for developing Structure-Property Linkages
+## Details of New dataset for developing Structure-Property Linkages
+
 + Details of structure dataset obtained from Yuksel (GT) can be found in [this paper](http://www.sciencedirect.com/science/article/pii/S1359645414006235)
 + Structure dataset for cubic polycrystal is chosen (Cu) 
 + 3-D Microstructure is of size 21x21x21 with cyrstal orientation associated with each voxel
@@ -24,23 +27,26 @@ title: 2 point statistics using GSH basis function
 + FEM elastic deformation simulations were done on 3600 microstructures to simulate uniaxial strain with periodic boundary conditions 
 + Property data (Elastic stiffness) will be calculated from simulation results
 
-### Selecting the continuous basis function
+## Selecting the continuous basis function
+
 + Generalized Spherical Harmonics (GSH) [1-3] to represent orientation distribution function over the Fundamental zone
 + GSH provides compact representaion of orientations
 
-### Building microstructure function using GSH basis for computing 2-point statistics
+## Building microstructure function using GSH basis for computing 2-point statistics
 
-![]<iframe src="https://www.flickr.com/photos/127097364@N03/15770738472/in/photostream/lightbox/player/" width="75" height="75" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe src="https://www.flickr.com/photos/127097364@N03/15770738472/in/photostream/lightbox/player/" width="75" height="75" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-### 2-point statistics results
+## 2-point statistics results
 
-### Current issues and Futue work
+## Current issues and Futue work
+
 + Redundancy in the fourier coefficients
 + Performing PCA 
 + Calculation of elastic stiffness from simulation results
 + Develop structure-property linkages using regression
 
-### References
+## References
+
 [1] http://www.sciencedirect.com/science/article/pii/S1359645414006235
 [2] http://www.sciencedirect.com/science/article/pii/S1359645414005394
 [3] Texture analysis in Materials Science, H.J. Bunge, 1993
