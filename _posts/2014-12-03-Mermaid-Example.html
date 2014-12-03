@@ -1,0 +1,47 @@
+---
+layout: post
+title: >
+  Mermaid Example
+tagline: >
+  An easy method to creating flow charts
+
+references:
+- https://github.com/knsv/mermaid
+---
+
+<style>
+.mermaid
+</style>
+
+
+## Mermaid Demo
+
+
+<div class="mermaid">
+  graph TD;
+    A[Physics Based Model]-->B(Feature Identification);
+    B-->C(Feature Encoding);
+    B-->b1((segmentation));
+    C-->D(Data Analytics);
+    C-->c1((spatial statistics));
+    D-->|collaborate|E{Design};
+    D-->d1((PCA));
+    E-->|iterate|A;
+</div>
+
+
+## Mermaid Syntax
+
+{% highlight html %}
+<div class="mermaid">
+  graph LR;
+    A[Physics Based Model]-->B(Feature Identification);
+    B-->C(Feature Encoding);
+    B-->b1((segmentation));
+    C-->D(Data Analytics);
+    C-->c1((spatial statistics));
+    D-->|collaborate|E{Design};
+    D-->d1((PCA));
+    E-->|iterate|A;
+</div>
+{% endhighlight %}
