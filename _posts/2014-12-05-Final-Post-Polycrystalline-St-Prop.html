@@ -18,19 +18,16 @@ plays an important role in controlling their effective properties.
 + Experimental vs Synthetic data
 + Sharing and managing huge amount of data
 + Computing statistics for crystal orientation as local state : discrete vs continuous local states
-+ Computing 2-point sttaistics using GSH basis function
++ Computing 2-point statistics using GSH basis function
 + Efficient PCA code for huge dataset
 
+### Initial project - Process-Structure linkages using Experimental EBSD dataset
 
-
-
-### Initial project - Process-Structure linkages using Experimental dataset
-
-+ Initially our project was to develop process-structure linkages for Channel–die Compressed AM30 Magnesium Alloy.
-Details of this project can be found at [_Project Description post_](http://penpatel.github.io/MIC-Mg-PSLinkages/2014/09/10/Project-Description.html)
-+ Details of dataset and project progress reports can be found at [_Progress Reporting post_](http://penpatel.github.io/MIC-Mg-PSLinkages/2014/09/16/Progress-Reporting.html)
-+ We worked on experimental EBSD dataset obtained from Mississipi state university and developed protocols to compute
-2-point statistics from experimental EBSD data using binning of fundamental zone. Details of protocol can be found
++ Initially scope of our project was to develop process-structure linkages for Channel–die Compressed AM30 Magnesium Alloy.
+Details of this project including project definition can be found at [_Project Description post_](http://penpatel.github.io/MIC-Mg-PSLinkages/2014/09/10/Project-Description.html)
++ Details of dataset and project progress reports of initial project can be found at [_Progress Reporting post_](http://penpatel.github.io/MIC-Mg-PSLinkages/2014/09/16/Progress-Reporting.html)
++ Experimental EBSD dataset for this project was obtained from Mississipi state university and we developed protocols to compute
+2-point statistics from experimental EBSD data using binning of fundamental zone. Details of developed protocols can be found
 at [_this post_](http://www.slideshare.net/fullscreen/0309akash/process-structure-linkages-for-channeldie-compressed-mg-alloy-22102014/1)
 
 ### Reasons for discarding initial project
@@ -38,31 +35,38 @@ at [_this post_](http://www.slideshare.net/fullscreen/0309akash/process-structur
 + Not enough data points - only 40 microstructures
 + Quality of data not good
 + Problem of charging in some microstructures
-+ Image quality and confidence index poor
++ Image quality and confidence index of microstructures poor
++ Primitive binning of local state space is computationally inefficient
 
 ### Final Project - Structure-Property linkages using Synthetic dataset
 
 + New protocols were developed to establish structure-property linkages for polycrystalline material using continous basis function
-  Generalized Spherical Harmonics (GSH), which provides compact representation for lattice orientations.
+  Generalized Spherical Harmonics (GSH), which provides compact representation for crystal orientations.
 + Details of dataset, GSH and initial plots of statistics using GSH can be found at post [_2 point statistics using GSH basis function_](http://penpatel.github.io/MIC-Mg-PSLinkages/2014/11/11/2pt-Statistics-using-GSH.html)
 + Preliminary results of PCA and linkages were discussed on post [_PCA and Structure-Property linkages_](http://penpatel.github.io/MIC-Mg-PSLinkages/2014/12/01/PCA-Structure-Property-Linkages.html)
- . These preliminary results were wrong due to bug in our code.
-+ Final presentation describing protocols, results and preliminary linkages can be seen below. This presentation contains
+ . These preliminary results were incorrect due to bug in our code.
++ Final presentation describing our protocols, results and preliminary linkages can be seen below. This presentation contains
   our final results which are correct. Linkages needs further improvement.
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/42479757" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
-### Highlights of project
+### Collaborations
+
++ David Brough, GT (for discussions on GSH )
++ Yuksel Yabansu, GT (code for generation of microstructure dataset)
++ Ahmet Cecen, GT (for Low Rank Approx. to compute PCA)
++ Dr Haitham El-Kadiri, Mississippi State University (experimental EBSD dataset)
++ Jordan Weaver and Ali Khosravani, GT (discussion on EBSD dataset and OIM software)
++ Dr. Kalidindi and  Dr. Fast, GT (discussions and feedback on project)
+
+### Highlights of project and Future work
 
 + Project progress was posted online and discussed biweekly in class using github posts. All the posts created on page
 of this project can be seen using our [_Project Page_](http://penpatel.github.io/MIC-Mg-PSLinkages/index.html)
 + Protocols were developed to compute structure-property linkages for polycrystalline material using GSH basis function 
-to represent crystal orientation
-+ Protocols were developed for computing 2-point statistics using binning for experimental EBSD dataset
+to quantify microstructures with crystal orientation as local states
++ Protocols were also developed for computing 2-point statistics using binning for experimental EBSD dataset
 + Preliminary structure-property linkages were developed for elastic response of polycrystalline materials
 + This project will be extended to develop linkages for plastic response of polycrystalline materials
-+ As part of class assignment overview posts for material informatics tools/databases were created. Our team did 
-overview of [_NIST Databases_](http://penpatel.github.io/MIC-Mg-PSLinkages/2014/11/25/NIST-databases-overview.html) and [_CALPHAD_](http://penpatel.github.io/MIC-Mg-PSLinkages/2014/11/22/Calphad-overview.html)
-, details of which can be found at respective posts.
 
 
